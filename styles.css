@@ -1,0 +1,55 @@
+.distros .box {
+    float: left;
+    padding: 0 2%;
+    width: 44%;
+    margin: 1%;
+}
+
+.error {
+    color:#F00000;
+}
+
+.del_distro, .add_user{
+    float:right;
+}
+
+
+div.textgrey,
+div.textgreen,
+div.textorange,
+div.textred{
+    float: left;
+    width: 100%;
+    height: 100%;
+    color:black;
+}
+div.textgrey{
+    background-color:grey;
+    color:white;
+}
+div.textgreen{
+    background-color:green;
+}
+div.textorange{
+    background-color:orange;
+}
+div.textred{
+    background-color:red;
+}
+
+.group_info {
+    cursor: pointer;
+    width: 11px;
+    float: left;
+    padding: 0 5px;
+    min-width: 16px;
+}
+
+.allgroup_info {
+    float: left;
+    border: 1px solid #000000;
+    background-color:#FFFFFF;
+    min-width: 10px;
+    min-height: 10px;
+    padding: 5px;
+}
